@@ -1,6 +1,9 @@
 import * as types from 'redux/consts/types';
 import songService from 'data/services/songService';
 
+/**
+ * Fetch all songs info
+ */
 
 export const fetchSongsInfoRequest = () => ({
   type: types.FETCH_SONGS_INFO_REQUEST,
@@ -33,8 +36,8 @@ export const fetchSongs = () => async (dispatch) => {
   }
 };
 
-export const selectTrack = (data) => ({
-  type: types.SELECT_TRACK,
+export const selectTrackToPlay = (data) => ({
+  type: types.SELECT_TRACK_TO_PLAY,
   payload: {
     data
   }

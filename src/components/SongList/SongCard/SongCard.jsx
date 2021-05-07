@@ -5,7 +5,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import { grey } from '@material-ui/core/colors';
-import { selectTrack } from 'redux/actions/song';
+import { selectTrackToPlay } from 'redux/actions/song';
 import {useDispatch } from 'react-redux';
 
 const useStyles = makeStyles({
@@ -38,7 +38,7 @@ const SongCard = ({ id, title, artist, album, coverUrl }) => {
 
   const initTrackInfo = () => {
     const trackInfo = { id, title, artist, album, coverUrl };
-    dispatch(selectTrack(trackInfo));
+    dispatch(selectTrackToPlay(trackInfo));
   }
 
   return (

@@ -30,7 +30,7 @@ const songReducer = (state = initialState, action) => {
         listIsLoading: false,
         listError: action.payload.error,
       };
-    case types.SELECT_TRACK:
+    case types.SELECT_TRACK_TO_PLAY:
       return {
         ...state,
         currentTrack: action.payload.data,
