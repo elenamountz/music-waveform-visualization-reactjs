@@ -17,7 +17,7 @@ A music playground project, in order to list and play your music. This is the in
 - Produce waveform visualization for current playing track
 - Force player at any track position using the cursor on waveform
 - 10 seconds forward
-- 10 seconds backword
+- 10 seconds backward
 - Play/Pause
 
 
