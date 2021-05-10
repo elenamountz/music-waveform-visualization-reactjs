@@ -20,6 +20,24 @@ A music playground project, in order to list and play your music. This is the in
 - 10 seconds backward
 - Play/Pause
 
+# App Screenshots
+
+### Web
+
+<table>
+  <tr>
+    <td><img src="public/web.png"></td>
+  </tr>
+</table>
+
+### Mobile
+
+<table>
+  <tr>
+    <td><img src="public/mobile.png"></td>
+    <td><img src="public/mobile-dialog.png"></td>
+  </tr>
+</table>
 
 ## Quick Start
 
